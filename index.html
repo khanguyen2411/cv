@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Nguyễn Văn Trọng Khá</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0;
+            margin-bottom: 5px;
+        }
+        .title {
+            font-size: 1.1rem;
+            color: #666;
+            margin: 0;
+        }
+        .contact-info {
+            text-align: right;
+        }
+        .contact-info div {
+            margin-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .education-item {
+            margin-bottom: 15px;
+        }
+        .date {
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .school {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .major {
+            margin-bottom: 5px;
+        }
+        .gpa {
+            color: #666;
+        }
+        .skills-list {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .skills-list li {
+            margin-bottom: 5px;
+        }
+        .skills-category {
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        /* Work Experience Styles */
+        .experience-item {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 40px;
+            border-left: 2px solid #007bff;
+        }
+        .experience-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 0;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #007bff;
+        }
+        .company-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .job-title {
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        .project-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .project-details {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .project-details li {
+            position: relative;
+            padding-left: 15px;
+            margin-bottom: 8px;
+        }
+        .project-details li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #007bff;
+        }
+        .technologies {
+            margin-top: 10px;
+            color: #666;
+        }
+        .technologies span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="left">
+                <h1 class="name">NGUYỄN VĂN TRỌNG KHÁ</h1>
+                <p class="title">Mobile Software Engineer</p>
+            </div>
+            <div class="contact-info">
+                <div>📱 036 875 2432</div>
+                <div>📧 khanvt001@gmail.com</div>
+                <div>📍 Cau Giay District, Hanoi</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">OBJECTIVE</h2>
+            <p>As a Mobile Software Engineer with 3 years of experience in Android and Flutter development, I aim to deepen my expertise in Clean Architecture, Jetpack Compose, and DevOps practices to build scalable and high-performance applications. I am eager to work on cutting-edge projects involving AI, Cloud technologies, and automation. My long-term goal is to grow into a Tech Lead role, driving technical excellence and mentoring teams.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">EDUCATION</h2>
+            <div class="education-item">
+                <div class="date">Sep 2019 - June 2023</div>
+                <div class="school">HANOI UNIVERSITY OF INDUSTRY</div>
+                <div class="major">Computer Science</div>
+                <div class="gpa">EXCELLENT CLASSIFICATION - GPA 3.64</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">SKILLS</h2>
+            <div class="skills-category">Technical Skills</div>
+            <ul class="skills-list">
+                <li>Programming Languages: Kotlin, Java, Dart</li>
+                <li>Frameworks & Libraries: Jetpack Compose, Android SDK, Flutter</li>
+                <li>Architectures: MVVM, MVI, Clean Architecture, SOLID</li>
+                <li>Cloud & DevOps: AWS, Docker, Kubernetes, Fastlane, CI/CD</li>
+            </ul>
+
+            <div class="skills-category">Soft Skills</div>
+            <ul class="skills-list">
+                <li>Effective communication & teamwork</li>
+                <li>Problem-solving & critical thinking</li>
+                <li>Agile - Scrum, Waterfall</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">WORK EXPERIENCE</h2>
+            
+            <div class="experience-item">
+                <div class="date">Oct 2023 - Present</div>
+                <div class="company-name">FPT SOFTWARE</div>
+                <div class="job-title">ANDROID DEVELOPER</div>
+                
+                <div class="project">
+                    <div class="project-title">Project: In-Vehicle Infotainment System for SUVs</div>
+                    <ul class="project-details">
+                        <li>Researched Jetpack Compose and conducted a presentation for 100+ project members.</li>
+                        <li>Built the base project, ensuring clean architecture and scalability.</li>
+                        <li>Developed key features for assigned applications.</li>
+                        <li>Implemented a service for a third-party app, integrating Service, ContentProvider, Broadcast Receiver, and AIDL.</li>
+                    </ul>
+                    <div class="technologies">
+                        <span>Technologies:</span> Jetpack Compose, Android Service, ContentProvider, Broadcast Receiver, AIDL, Kotlin, MVVM
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="date">April 2022 - Oct 2023</div>
+                <div class="company-name">Zinza Technology</div>
+                <div class="job-title">MOBILE DEVELOPER</div>
+                
+                <div class="project">
+                    <div class="project-title">Project: Android TV Livestream App</div>
+                    <ul class="project-details">
+                        <li>Developed an Android TV livestream app from scratch, designing scalable architecture.</li>
+                        <li>Built an optimized UI/UX using Leanback Library and integrated ExoPlayer for seamless streaming.</li>
+                        <li>Implemented authentication, real-time chat, and performance optimizations for multiple TV devices.</li>
+                        <li>Integrated CI/CD pipeline using Fastlane and Firebase App Distribution for streamlined deployment.</li>
+                    </ul>
+                    <div class="technologies">
+                        <span>Technologies:</span> Kotlin, ExoPlayer, MVVM, Retrofit, WebSocket, Fastlane, Firebase App Distribution
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-title">Project: Realtime Quiz Application</div>
+                    <ul class="project-details">
+                        <li>Analyzed business requirements to design a Realtime Quiz Application for internal company use.</li>
+                        <li>Developed the application from scratch with a scalable architecture using Flutter and Supabase.</li>
+                        <li>Built a responsive UI with real-time interaction and smooth animations.</li>
+                        <li>Integrated CI/CD pipeline with Fastlane, Firebase App Distribution, and TestFlight for efficient deployment.</li>
+                    </ul>
+                    <div class="technologies">
+                        <span>Technologies:</span> Flutter, Supabase, Fastlane, Firebase App Distribution, TestFlight
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="date">April 2023 - September 2023</div>
+                <div class="company-name">Chuyenhanghanh24h</div>
+                <div class="job-title">MOBILE DEVELOPER</div>
+                
+                <div class="project">
+                    <div class="project-title">Project: Freelance Mobile Developer – Transportation Management System (TMS)</div>
+                    <ul class="project-details">
+                        <li>Developed a mobile app for iOS and Android using Flutter to manage transportation operations.</li>
+                        <li>Designed and implemented role-based features for operators, shippers, and customers.</li>
+                        <li>Integrated BLoC state management for efficient app performance and maintainability.</li>
+                        <li>Implemented Restful API communication for real-time data synchronization.</li>
+                        <li>Managed app distribution via Firebase App Distribution and TestFlight.</li>
+                        <li>Handled the release process on Google Play Store and App Store.</li>
+                    </ul>
+                    <div class="technologies">
+                        <span>Technologies:</span> Flutter, BLoC, Restful API, Firebase App Distribution, TestFlight, Google Play Store, App Store
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">CERTIFICATIONS</h2>
+            <style>
+                .certification-item {
+                    margin-bottom: 20px;
+                }
+                .certification-date {
+                    color: #666;
+                    margin-bottom: 5px;
+                }
+                .certification-name {
+                    font-weight: bold;
+                }
+            </style>
+            
+            <div class="certification-item">
+                <div class="certification-date">December 2024</div>
+                <div class="certification-name">English CEFR B2 Level</div>
+            </div>
+
+            <div class="certification-item">
+                <div class="certification-date">June 2024</div>
+                <div class="certification-name">Android Certified Application Developer – AndroidATC</div>
+            </div>
+
+            <div class="certification-item">
+                <div class="certification-date">September 2024</div>
+                <div class="certification-name">Cloud DevOps Engineer Nanodegree Certificate – Udacity</div>
+            </div>
+
+            <div class="certification-item">
+                <div class="certification-date">December 2024</div>
+                <div class="certification-name">AWS Cloud Architect Nanodegree Certificate – Udacity</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
